@@ -44,4 +44,11 @@ fi
 alias k=kubectl
 complete -F __start_kubectl k
 
+# Anaconda
+if [ -f "/home/guiga/apps/anaconda3/etc/profile.d/conda.sh" ]; 
+then
+        . "/home/guiga/apps/anaconda3/etc/profile.d/conda.sh" 
+else
+        export PATH="/home/guiga/apps/anaconda3/bin:$PATH"
+fi
 
