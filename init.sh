@@ -9,10 +9,10 @@ function init_bash() {
 	source <(kubectl completion bash)
 }
 
-if [ $SHELL = '/usr/bin/zsh' ]
+if [[ $SHELL =~ 'zsh' ]]
 then
 	init_zsh
-elif [ $SHELL = "/bin/bash" ] 
+elif [[ $SHELL =~ 'bash' ]] 
 then
 	init_bash
 else
