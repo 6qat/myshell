@@ -1,5 +1,25 @@
 echo "Applying my settings..." 
 
+function init_zsh() {
+	echo "ZSH configuration..."
+	source <(kubectl completion zsh)
+}
+function init_bash() {
+	echo "BASH configuration..."
+	source <(kubectl completion bash)
+}
+
+if [ $SHELL = '/usr/bin/zsh' ]
+then
+	init_zsh
+elif [ $SHELL = "/bin/bash" ] 
+then
+	init_bash
+else
+	echo "Shell not supported."
+fi
+
+
 export PATH=$HOME/apps/bin:$PATH
 
 alias running_services='systemctl list-units  --type=service  --state=running --no-pager'
@@ -19,5 +39,9 @@ function myip() {
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
+
+# Kubernetes stuff
+alias k=kubectl
+complete -F __start_kubectl k
 
 
