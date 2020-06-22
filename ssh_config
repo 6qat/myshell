@@ -1,0 +1,5 @@
+Host dev
+    HostName dev.example.com
+    User john
+    Port 2322
+
