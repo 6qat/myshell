@@ -12,3 +12,5 @@ chmod a+x get_helm.sh
 
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 
+libvirt-clients
+libvirt-daemon

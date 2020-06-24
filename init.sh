@@ -44,6 +44,8 @@ fi
 alias k=kubectl
 complete -F __start_kubectl k
 
+alias vms="ps -ef | awk -e '/qemu/ && !/awk/' | sed -e 's/[^/]*//' -e 's/ -/\n\t-/g'"
+
 # Anaconda
 if [ -f "/home/guiga/apps/anaconda3/etc/profile.d/conda.sh" ]; 
 then
