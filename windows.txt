@@ -1,0 +1,4 @@
+Enable nesting vms on hyper-v:
+sudo Set-VMProcessor ubuntu-server -ExposeVirtualizationExtensions 1
+
+
