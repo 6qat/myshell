@@ -17,3 +17,4 @@ libvirt-daemon
 
 ncdu (turbo du)
 tldr (turbo man pages)
+jq (command line json parser)
