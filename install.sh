@@ -14,3 +14,6 @@ helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 
 libvirt-clients
 libvirt-daemon
+
+ncdu
+
