@@ -3,6 +3,9 @@ echo "Applying my settings..."
 function init_zsh() {
 	echo "ZSH configuration..."
 	source <(kubectl completion zsh)
+
+	bindkey '^[[1~' beginning-of-line
+	bindkey '^[[4~' end-of-line
 }
 function init_bash() {
 	echo "BASH configuration..."
