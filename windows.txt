@@ -1,4 +1,6 @@
 Enable nesting vms on hyper-v:
 sudo Set-VMProcessor ubuntu-server -ExposeVirtualizationExtensions 1
 
+Debloat:
+iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 
