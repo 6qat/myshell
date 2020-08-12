@@ -1,0 +1,28 @@
+Command line scala installer: https://get-coursier.io/docs/cli-installation
+
+curl -fLo cs https://git.io/coursier-cli-linux &&
+    chmod +x cs &&
+    ./cs
+
+Scala formater: https://scalameta.org/scalafmt/
+
+cs install scalafmt
+scalafmt --version # should be 2.6.4
+
+=====================================================================
+Withoud Ammonite:
+=====================================================================
+
+#!/bin/sh
+exec scala "$0" "$@"
+!#
+
+if(args.length != 0) {
+    println("Hello, " + args(0) + "!")
+    println(s"Passed ${args.length} arguments.")
+}
+else {
+    println("No args.")
+}
+
+=====================================================================
