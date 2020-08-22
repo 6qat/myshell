@@ -19,3 +19,5 @@ ncdu (turbo du)
 tldr (turbo man pages)
 jq (command line json parser)
 fd (find replacement)
+bat (cat clone with syntax)
+
