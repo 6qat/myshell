@@ -36,4 +36,5 @@ grex (tool for generating regular expressions when user provide test cases, http
 zoxide (cd replacement, https://github.com/ajeetdsouza/zoxide, use with 'z' alias)
 nushell (modern shell)
 
+sudo apt install -y ttf-mscorefonts-installer
 
