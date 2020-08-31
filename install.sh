@@ -17,6 +17,8 @@ libvirt-clients
 libvirt-daemon
 
 Scala coursier: https://get-coursier.io/
+coursier setup
+
 
 https://zaiste.net/posts/shell-commands-rust/
 
