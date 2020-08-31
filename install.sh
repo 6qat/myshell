@@ -16,6 +16,8 @@ helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 libvirt-clients
 libvirt-daemon
 
+Scala coursier: https://get-coursier.io/
+
 https://zaiste.net/posts/shell-commands-rust/
 
 ncdu (turbo du)
