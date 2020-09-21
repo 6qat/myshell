@@ -42,3 +42,6 @@ nushell (modern shell)
 
 sudo apt install -y ttf-mscorefonts-installer
 
+Manjaro:
+sudo pacman -S base-devel
+
