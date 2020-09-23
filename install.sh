@@ -19,6 +19,10 @@ libvirt-daemon
 Scala coursier: https://get-coursier.io/
 coursier setup
 
+Boost:
+./bootstrap.sh
+./b2 --prefix=/home/guiga/dev/boost-174 --layout=versioned --build-type=complete install
+
 
 https://zaiste.net/posts/shell-commands-rust/
 
@@ -44,4 +48,5 @@ sudo apt install -y ttf-mscorefonts-installer
 
 Manjaro:
 sudo pacman -S base-devel
+sudo pacman -S wine winetricks wine-mono wine_gecko
 
