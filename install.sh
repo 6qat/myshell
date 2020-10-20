@@ -16,6 +16,9 @@ helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 libvirt-clients
 libvirt-daemon
 
+Ubuntu lGl: apt install freeglut3-dev
+
+
 Scala coursier: https://get-coursier.io/
 coursier setup
 
