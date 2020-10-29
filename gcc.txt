@@ -1,3 +1,5 @@
+https://cpp.tutorials24x7.com/blog/how-to-install-gcc-on-ubuntu-20-04-lts
+
 apt install gcc-10 g++-10
 
 # GCC 10 alternative
