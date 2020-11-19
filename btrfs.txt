@@ -1,0 +1,4 @@
+ sudo btrfs property get -ts /var/snap/lxd/common/lxd/storage-pools/default
+
+sudo btrfs subvolume delete /var/snap/lxd/common/lxd/storage-pools/default/images/979ff60086ca9fb1c93d3131f8eca291820a524f0bd0b7d621a3c2f5f41ef185
+
