@@ -60,3 +60,7 @@ https://wine.htmlvalidator.com/install-wine-on-ubuntu-20.04.html
 
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 
+Qt library dependency:
+libglu1-mesa-dev
+
+
