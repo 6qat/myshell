@@ -55,3 +55,8 @@ sudo pacman -S wine winetricks wine-mono wine_gecko
 sudo pacman -S base-devel
 sudo su - && echo "blacklist pcspkr" | tee /etc/modprobe.d/nobeep.conf
 
+Wine:
+https://wine.htmlvalidator.com/install-wine-on-ubuntu-20.04.html
+
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
