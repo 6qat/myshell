@@ -63,4 +63,6 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 Qt library dependency:
 libglu1-mesa-dev
 
+Qt library dependency(fedora):
+sudo yum install freeglut-devel 
 
