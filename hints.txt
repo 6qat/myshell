@@ -1,0 +1,7 @@
+Converting .DEB to Arch or Manjaro Linux:
+
+https://www.maketecheasier.com/install-deb-package-in-arch-linux/#:~:text=Installing%20manually&text=To%20install%20the%20files%20in,into%20the%20extracted%20Deb%20folder.
+https://github.com/helixarch/debtap
+debtap packagetoconvert.deb
+debtap -U *
+
