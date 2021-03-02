@@ -2,3 +2,11 @@ $ dpkg -x hello_2.6-1_i386.deb ./tmp
 $ cd tmp
 $ tar -czvf hello_2.6-1.tar.gz *
 
+###########################################################################################
+
+# Correct snap:
+find /var/lib/snapd/apparmor/profiles/snap.lxd.* -type f -exec sed -i 's|/usr/sbin/aa-exec ux,|/usr/bin/aa-exec ux,|g' {} \;
+
+apparmor_parser -r /var/lib/snapd/apparmor/profiles/* -v
+
+############################################################################################
