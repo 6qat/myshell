@@ -9,3 +9,7 @@ yay ttf-ms-fonts
 sudo systemctl enable fstrim.timer
 sudo pacman-mirrors --fasttrack
 
+# Inotify Instances Limit
+
+sudo sh -c "echo 256 > /proc/sys/fs/inotify/max_user_instances"
+
