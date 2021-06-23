@@ -15,4 +15,4 @@ sudo sh -c "echo 256 > /proc/sys/fs/inotify/max_user_instances"
 
 cargo install fd-find
 cargo install du-dust
-
+cargo install exa
