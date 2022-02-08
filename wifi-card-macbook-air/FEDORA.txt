@@ -1,0 +1,16 @@
+https://www.cyberciti.biz/faq/fedora-linux-install-broadcom-wl-sta-wireless-driver-for-bcm43228/
+
+dnf groupinstall "Development Tools" "Development Libraries"
+
+ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+$ sudo dnf search kmod-wl
+$ sudo dnf info kmod-wl
+## *** update the system *** ##
+$ sudo yum update
+## *** if a new kernel was installed reboot the system *** ##
+$ sudo reboot
+## *** Install kmod-wl *** ##
+$ sudo dnf install kmod-wl
+
+
