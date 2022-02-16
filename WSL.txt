@@ -1,3 +1,31 @@
 Problem with authorization when cloning remote git on windows partiyion: vim /etc/wsl.conf
 [automount]
 options = "metadata"
+
+
+Install:
+
+- wsl --update
+- LunarVim (www.lunarvim.org)
+- pacman -S rust
+- zsh
+- powerlevel10k (github.com/romkatv/powerlevel10k
+- https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#manual-git-clone
+- cargo install bat exa procs dust tokei ytop tealdeer grex rmesg zoxi delta
+- alias vi='vim'
+- alias ls='exa --icons'
+- yay asdf-vm (https://github.com/asdf-vm/asdf)
+- source /opt/asdf-vm/asdf.sh
+- asdf plugin add nodejs
+- asdf list
+- asdf list-all nodejs 
+- asdf install nodejs 17.5.0
+- asdf global nodejs 17.5.0
+- asdf local nodejs 17.5.0   (dentro do diretorio de um projeto, cria o arquivo .tool-versions)
+- asdf plugin add java
+- asdf list-all java
+- asdf install java graalvm-22.0.0.2+java11
+- asdf plugin add scala
+- asdf list-all scala
+- asdf install scala 
+- 
