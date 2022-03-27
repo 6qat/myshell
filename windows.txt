@@ -6,3 +6,6 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 
 Remove dev directory from virus scan:
 sudo Add-MpPreference -ExclusionPath 'd:\dev'
+
+wmic diskdrive list brief
+

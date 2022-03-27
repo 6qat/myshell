@@ -2,6 +2,9 @@ Problem with authorization when cloning remote git on windows partiyion: vim /et
 [automount]
 options = "metadata"
 
+wmic diskdrive list brief
+wsl --mount \\.\PHISICALDRIVE1
+
 
 Install:
 
@@ -28,4 +31,5 @@ Install:
 - asdf plugin add scala
 - asdf list-all scala
 - asdf install scala 
-- 
+- lsbk
+ 

@@ -1,0 +1,16 @@
+https://randomgeekery.org/post/2014/06/what-is-build-essentials-for-opensuse/
+
+This is the umpteenth time I looked up what build-essential is on openSUSE. 
+For my purposes, it’s the devel_basis pattern. To see what packages have the pattern:
+
+zypper info -t pattern devel_basis
+
+Yes it has a lot of packages, but I usually end up installing many of those anyways.
+To install devel_basis:
+
+sudo zypper install -t pattern devel_basis
+
+
+
+=====================================================================================
+
